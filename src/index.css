@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  padding-top: 40px;
+}
+.list > li {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.list > li > .removeButton {
+  cursor: pointer;
+  color: red;
+  position: absolute;
+  width: 160px;
+  margin: 10px;
+  height: 50px;
+  top: 240px;
+  padding-left: 20px;
+  background-color: wheat;
+}
+.list > li > .addButton {
+  cursor: pointer;
+  color: red;
+  position: absolute;
+  width: 160px;
+  margin: 10px;
+  height: 50px;
+  top: 660px;
+  padding-left: 20px;
+  background-color: wheat;
+}
+

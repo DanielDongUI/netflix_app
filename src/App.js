@@ -11,6 +11,6 @@ function App() {
       <MyList />
     </div>
   );
-} 
+}
 
 export default App;
